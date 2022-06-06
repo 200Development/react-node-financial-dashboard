@@ -15,12 +15,62 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid white;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-nav {
+  font-size: calc(10px + 2vmin);
+  color: white;  
+}
+
+.App-nav a {
+  color: white;
+  font-size: calc(5px + 1.5vmin);
+  padding: 20px;
+  text-decoration: none;
+}
+
+.App-body {
+  background-color: #424e68;
+  min-height: 70vh;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 10vh;
+}
+
+.App-left-panel {
+  background-color: #525457;
+  /* min-height: 75vh; */
+  min-width: 20vw;
+  border: 2px solid white;
+  color: white;
+}
+
+.App-center-panel {
+  background-color: #303e52;
+  /* min-height: 75vh; */
+  min-width: 60vw;
+  border: 2px solid white;
+  color: white;
+}
+
+.App-right-panel {
+  background-color: #6991cc;
+  /* min-height: 75vh; */
+  min-width: 20vw;
+  border: 2px solid white;
   color: white;
 }
 
