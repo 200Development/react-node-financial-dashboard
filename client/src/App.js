@@ -27,8 +27,7 @@ function App() {
           <div className='App-expenses'></div>
           <div className='App-transactions'></div>
         </div>
-        <div className='App-center-panel'></div>
-        <div className='App-right-panel'></div>
+        <div className='App-main-panel'></div>
         {/* <p>{!data ? "Loading..." : data}</p> */}
       </body>
     </div>
