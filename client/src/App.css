@@ -53,23 +53,15 @@
 .App-left-panel {
   background-color: #525457;
   /* min-height: 75vh; */
-  min-width: 20vw;
+  min-width: 30vw;
   border: 2px solid white;
   color: white;
 }
 
-.App-center-panel {
+.App-main-panel {
   background-color: #303e52;
   /* min-height: 75vh; */
-  min-width: 60vw;
-  border: 2px solid white;
-  color: white;
-}
-
-.App-right-panel {
-  background-color: #6991cc;
-  /* min-height: 75vh; */
-  min-width: 20vw;
+  min-width: 70vw;
   border: 2px solid white;
   color: white;
 }
