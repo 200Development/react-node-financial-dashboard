@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AddAccount from './components/AddAccount/AddAccount';
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -9,6 +10,8 @@ function App() {
     .then((res) => res.json())
     .then((data) => setData(data.message));
   }, []);
+
+ 
   
   return (
     <div className='App'>
@@ -23,7 +26,9 @@ function App() {
       </header>
       <body className='App-body'>
         <div className='App-left-panel'>
-          <div className='App-accounts'></div>
+          <div className='App-accounts'>
+            <AddAccount></AddAccount>
+          </div>
           <div className='App-expenses'></div>
           <div className='App-transactions'></div>
         </div>
